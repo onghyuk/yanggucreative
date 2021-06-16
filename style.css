@@ -1,0 +1,222 @@
+@keyframes nameone{
+    0% {left: 100vw;}
+    100% {left: -280vw;}
+}
+
+@keyframes nametwo{
+    0% {left: 100vw;}
+    100% {left: -200vw;}
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+#header{
+    position: relative;
+    
+    margin-left:  20vw;
+    
+    width: 60vw;
+
+    background-color: #d7d7d5;
+    
+    font-size: 1.5vh;
+    line-height: 0em;
+    
+    
+}
+
+#navi{
+    position: absolute;
+    width: 3vh;
+    height: 3vh;
+    background-color: white;
+    
+}
+
+
+
+#index{
+    position: absolute;
+    top:3.2vh;
+    width: 17.4vw;
+    height: 50vh;
+    z-index: 10;
+    background-color: white;
+    
+    display: none;
+    border: 1px solid black;
+    margin-left: 3vh;
+    padding-left: 1vw;
+   
+}
+
+.container{
+    position: relative;
+    width: 60vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+
+.box{
+    position: relative;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.liner{
+    position: relative;
+    margin: -0.1vh;
+    z-index: 10;
+    
+    left: 10vw;
+    width: 80vw;
+    border-bottom: 0.2em solid #cc0033;
+}
+
+.lineb{
+    position: relative;
+    z-index: 10;
+    margin: -0.1vh;
+    left: 10vw;
+    width: 80vw;
+    border-bottom: 0.2em solid #90cee9;
+}
+
+.liney{
+    position: relative;
+    z-index: 10;
+    margin: -0.1vh;
+    left: 10vw;
+    width: 80vw;
+    border-bottom: 0.2em solid #ffff33;
+}
+
+.b{
+    color: #90cee9;
+}
+
+
+
+.nameone{
+    position: relative;
+    top:1vh;
+    width: 100vw;
+    height: 2vh;
+    text-align: center;
+    font-size: 0.95em;
+    line-height: 0.2em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+    overflow: scroll;
+    white-space: nowrap;
+    
+}
+
+.nametwo{
+    position: relative;
+    top:1vh;
+    width: 100vw;
+    height: 2vh;
+    text-align: center;
+    font-size: 0.95em;
+    line-height: 0.2em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+    overflow: scroll;
+    white-space: nowrap;
+    
+}
+
+.namebox{
+    font-size: 0.9em;
+    line-height: 0.2em;
+    padding: 0.3em;
+}
+
+#one{
+    cursor: pointer;
+}
+
+#footer{
+    position: relative;
+    margin-left:  20vw;
+    
+    width: 60vw;
+    height: 30vh;
+    background-color: #90cee9;
+    
+}
+
+@media only screen and (max-width: 600px){
+  .container{
+    width: 100vw;
+    
+    padding-left: 0vw;
+    padding-right: 0vw;
+    }
+    
+.liner{
+    display: none;
+}
+
+.lineb{
+    display: none;
+}
+
+.liney{
+    display: none;
+
+}  
+
+    .nameone{
+    width: 300vw;
+    
+    animation-name: nameone;
+    animation-duration: 35s;    
+    animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        text-align: left;
+        
+    
+}
+    
+     .nametwo{
+    width: 300vw;
+    
+    animation-name: nametwo;
+    animation-duration: 35s;    
+    animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        text-align: left;
+        
+    
+}
+    
+    #footer{
+    
+    margin-left:  0vw;
+    
+    width: 100vw; 
+}
+}
