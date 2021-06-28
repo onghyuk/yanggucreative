@@ -293,8 +293,21 @@ line-height: 1.5em;}
     
 }
     
-    .pagetwo{
+    .subpagetwo{
      display: block;
     
 }
+    .subpagethree{
+     display: block;
+    
+}
+    
+    .subpagefour{
+        display: block;
+        margin-top: 30%;
+        margin-bottom: 80%;
+    }
+    .vrtext{
+        margin-left:  0px;
+    }
 }
