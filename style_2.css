@@ -39,8 +39,6 @@ line-height: 1.5em;}
     z-index: 10;
     opacity: 100%;
     
-    display: none;
-    
 }
 
 .title{
@@ -257,7 +255,6 @@ line-height: 1.5em;}
     width: 100%;
     height: 100%;
     padding: 0px;
-    margin-top: 50%;
 }
 
 .subpagefive{
@@ -330,98 +327,6 @@ line-height: 1.5em;}
     }
     .vrtext{
         margin-left:  0px;
-    }
-}
-
-.cover{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    
-    background-color: white;
-    z-index: 10;
-    text-align: center;
-    padding-top: 15vw;
-    
-}
-
-@media only screen and (max-width: 700px) {
-    .up{display: none;}
-    
-    .wrapper{ max-width: 100vw; 
-    overflow-x: hidden;}
-    
-    .headcontent{
-    position: relative;
-    top:0px;
-    left: 0px;
-    
-    width: 100%;
-    height: 100%;
-    
-    
-    background-color: whitesmoke;
-}
-
-.hcleft{
-    padding-left: 48%;
-    width: 100%;
-    
-}
-
-.hcright{
-    padding-left: 3%;
-    padding-top: 8%;
-    width: 100%;
-    
-}
-    
-    .pageone{
-     display: block;
-     
-    
-}
-    
-    .oneimg{
-        padding-right: 0px;
-        width: 94.5%;
-    }
-    
-    .subpagetwo{
-     display: block;
-    
-}
-    .subpagethree{
-     display: block;
-    
-}
-    
-    .subvideo{
-        height: 20%;
-    }
-    
-    .jihyun{
-        width: 80%;
-        height: 30vh;
-        margin-left: -5%;
-    }
-    .subpagefour{
-        display: block;
-        margin-top: 30%;
-        margin-bottom: 80%;
-    }
-    
-    .subpagefive{
-        
-        margin-top: 80%;
-        
-    }
-    .vrtext{
-        margin-left:  0px;
-    }
-    
-    .pagethree{
-        margin-top: 60%;
     }
 }
 
