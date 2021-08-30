@@ -376,7 +376,7 @@ a{
                 }
     
     .subpageFour {
-        grid-template-columns: 1fr 50%;
+        grid-template-columns: 45% 1fr;
         display: grid;
         margin-bottom: 4%;
         margin-top: 1%;
