@@ -636,13 +636,13 @@ li{
 
                 .onlineExInsta{
                 padding-left: 25vw;  
-                width: 50%;  
+                width: 80%;  
                 display: grid;
                 grid-template-columns: 10% 53%;
                 }    
 
                 .instaicon{
-                    width: 90%;
+                    width: 60%;
                 }
 
                 
@@ -664,7 +664,7 @@ li{
                         
                         
                         word-break: keep-all;}
-                        
+
                         .wrapperformobile{
                             max-width: 100vw;
                         overflow-x: hidden;
