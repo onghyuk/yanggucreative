@@ -309,7 +309,7 @@ body{margin: 0px;
             
             word-break: keep-all;}
 
-            .wrapperformobile{
+            .wrapperForMobile{
             max-width: 100vw;
             overflow-x: hidden;
             }
@@ -386,12 +386,16 @@ body{margin: 0px;
             
         }
 
-        .title{
-            display: block;
+        .maintitle{
+            position: absolute;
+            left: 0vw;
+            top: 0.2vh;
+            font-size: 0.8em;
+
+            width: 100vw;
             text-align: center;
-            margin-block-start: 0em;
-            margin-block-end: 0em;
-            z-index: 8;
+            color: gray;
+            
         }
 
 
@@ -438,7 +442,7 @@ body{margin: 0px;
         }
 
         .artistNameBox{
-            padding-left: 8vw;
+            padding-left: 1vw;
         }
     
         .mapAbout{
@@ -526,7 +530,7 @@ body{margin: 0px;
         }
     
         .chairImg{
-            width: 100%;
+            width: 90%;
             
         }
     
