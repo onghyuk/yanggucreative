@@ -19,6 +19,11 @@ li{
     list-style-type: none;
     line-height: 2em;
 }
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
     .wrapper{
         background-color: whitesmoke;
         height: 100%;
@@ -733,7 +738,7 @@ li{
                         }
                             
                             
-                        }
+                        
                     
                         .displayBlock{
                             display: block;
@@ -1301,3 +1306,5 @@ li{
                                     }
                     
                                 }
+
+                            
