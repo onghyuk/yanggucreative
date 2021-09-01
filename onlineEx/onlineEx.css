@@ -702,7 +702,7 @@ a{
                             width: 100vw;
                             height: 85vh;
                         }
-                        
+
                         .mainwrapper{
                             position: relative;
                             top:0vh;
@@ -1174,7 +1174,7 @@ a{
                                     .onlineExWrapper{
                                         position: relative;
                                         left: 0px;
-                                        top: 20vh;
+                                        top: 0px;
                     
                                         width: 100vw;
                                         height: 100%;
