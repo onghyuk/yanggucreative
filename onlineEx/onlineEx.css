@@ -675,8 +675,9 @@ a{
                     .wrapperForMobile{
                         max-width: 100vw;
                         overflow-x: hidden;
-                        overflow-y: scroll;
+                        
                         }
+
                     li{
                         list-style-type: none;
                         line-height: 1.8em;
@@ -701,6 +702,7 @@ a{
                             width: 100vw;
                             height: 85vh;
                         }
+                        
                         .mainwrapper{
                             position: relative;
                             top:0vh;
