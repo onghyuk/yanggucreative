@@ -114,16 +114,26 @@ a{
 
             .banner{
                 position: absolute;
-                top:100vh;
-                left: 40vw;
+                top:125vh;
+                left: 10vw;
 
-                width: 50vw;
-                height: 75vh;
+                width: 80vw;
+                height: 45vh;
                 z-index: 10;
+                opacity: 70%;
+                transition: 1s;
+            }
+
+            .banner:hover {
+                opacity: 100%;
             }
 
             .onlineExPoster{
                 width: 100%;
+            }
+
+            .onlineExPosterForMobile{
+                display: none;
             }
 
             .displayNone{
@@ -622,10 +632,16 @@ a{
                                 width:80vw;
                                 height: 60vh;
                                 z-index: 8;
+                                opacity: 100%;
                             }
                 
                             .onlineExPoster{
+                                display: none;
+                            }
+
+                            .onlineExPosterForMobile{
                                 width: 100%;
+                                display: block;
                             }
                 
                             .displayNone{
