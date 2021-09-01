@@ -114,11 +114,11 @@ a{
 
             .banner{
                 position: absolute;
-                top:125vh;
-                left: 60vw;
+                top:100vh;
+                left: 40vw;
 
-                width: 23vw;
-                height: 60vh;
+                width: 50vw;
+                height: 75vh;
                 z-index: 10;
             }
 
