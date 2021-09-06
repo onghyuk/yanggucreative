@@ -412,6 +412,10 @@ a{
         width: 100%;
     }
 
+    .onlineExWorkImgYongah{
+        width: 25%;
+    }
+
     .onlineExText{
         width: 50%;
         font-weight: 600;
@@ -1306,6 +1310,10 @@ a{
                                     .instatext{
                                         position: relative;
                                         top:-2vh;
+                                    }
+
+                                    .onlineExWorkImgYongah{
+                                        width: 80%;
                                     }
                     
                                 }
