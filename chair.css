@@ -25,6 +25,8 @@ body{margin: 0px;
         color:inherit;
     }
 
+   
+
     .menu{
         position: -webkit-sticky;
         position: sticky;
@@ -90,6 +92,19 @@ body{margin: 0px;
         
     }
 
+    .maintitle{
+        position: absolute;
+        left: 0vw;
+        top: 0.2vh;
+        font-size: 0.8em;
+
+        width: 100vw;
+        text-align: center;
+        color: gray;
+        z-index: 10;
+        
+    }
+
     .title{
         position: relative;
         top:38%;
@@ -135,6 +150,10 @@ body{margin: 0px;
         
         font-weight: 600;
         
+    }
+
+    .artistNameBox{
+        padding-bottom: 2vh;
     }
 
     .mapAbout{
@@ -226,7 +245,7 @@ body{margin: 0px;
 
     .workImgWrapper{
         position: relative;
-        width: 100vw;
+        width: 90vw;
         height: 100%;
 
         padding-left: 10vw;
@@ -247,8 +266,14 @@ body{margin: 0px;
     }
 
     .chairImg{
-        width: 98%;
+        width: 72%;
+        margin-left: 10%;
         
+    }
+
+    .chairImgVertivcal{
+        width: 32%;
+        margin-left: 30%;
     }
 
     .onegird{
@@ -291,6 +316,10 @@ body{margin: 0px;
         transform: rotate(180deg);
     }
 
+    .swiper-button-next, .swiper-button-prev{
+        width: 10%;
+        right: auto;
+    }
     
 
     @media only screen and (max-width: 700px){
@@ -323,7 +352,7 @@ body{margin: 0px;
             text-decoration: none;
             color:inherit;
         }
-
+        
         .menu{
             position: -webkit-sticky;
             position: sticky;
@@ -443,6 +472,7 @@ body{margin: 0px;
 
         .artistNameBox{
             padding-left: 1vw;
+            
         }
     
         .mapAbout{
@@ -491,10 +521,11 @@ body{margin: 0px;
             padding-left: 8vw;
         }
     
+
+        
     
     
-    
-    
+       
     
     
         .chairImgWrapper{
@@ -509,7 +540,7 @@ body{margin: 0px;
     
         .workImgWrapper{
             position: relative;
-            width: 100vw;
+            width: 100%;
             height: 100%;
     
             padding-left: 5vw;
@@ -532,6 +563,11 @@ body{margin: 0px;
         .chairImg{
             width: 90%;
             
+        }
+
+        .chairImgVertivcal{
+            width: 40%;
+            margin-left: 35%;
         }
     
         .onegird{
