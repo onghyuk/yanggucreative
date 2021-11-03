@@ -725,7 +725,7 @@ a{
                             background-color: none;
                             z-index: 10;
                     
-                            cursor:pointer;
+                            
                             
                             
                         }
@@ -748,6 +748,7 @@ a{
                     
                         .displayBlock{
                             display: block;
+                            cursor:pointer;
                         }
                     
                        

@@ -1,0 +1,674 @@
+body{margin: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    
+        
+    font-family: sandoll-gothicneo3, sans-serif;
+    
+    font-weight: 400;
+    
+    font-style: normal;
+    line-height: 1.5em;
+    
+    
+    word-break: keep-all;
+
+    background-color: whitesmoke;}
+
+    li{
+        list-style-type: none;
+        line-height: 1.8em;
+    }
+    
+    a{
+        text-decoration: none;
+        color:inherit;
+    }
+
+   
+
+    .menu{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        width: 5vw;
+        height: 6vh;
+        background-color: none;
+        z-index: 10;
+
+        cursor:pointer;
+        
+        
+    }
+
+    .menubox{
+        position: absolute;
+        left: 0%;
+        top:0%;
+
+        padding-top: 30%;
+        padding-left: 30%;
+        width: 23vw;
+        height: 80vh;
+        z-index: 10;
+        color: gray;
+        background-color: rgba(238, 238, 238);
+        display:none;
+        
+    }
+
+    .displayBlock{
+        display: block;
+    }
+
+   
+
+    .x{
+        width: 100%;
+        
+    }
+
+    .xbox, .xboxBanner{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        cursor:pointer;
+    }
+
+    .menuicon{
+        position: absolute;
+        top: 0%;
+        left: 1vw;
+        font-size: 1.5em;
+        
+        width: 1vw;
+        background-color: none;
+        color: gray;
+        z-index: 10;
+        opacity: 100%;
+        
+        
+        
+    }
+
+    .maintitle{
+        position: absolute;
+        left: 0vw;
+        top: 0.2vh;
+        font-size: 0.8em;
+
+        width: 100vw;
+        text-align: center;
+        color: gray;
+        z-index: 10;
+        
+    }
+
+    .title{
+        position: relative;
+        top:38%;
+        left: 60%;
+        width: 100vw;
+        height: 0vh;
+        
+        text-align: left;
+        z-index: 10;
+        color: gray;
+        background-color: none;
+        opacity: 100%;
+        display: none;
+    }
+
+
+    .map{
+        position: relative;
+        
+        width: 100vw;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 23%;
+    }
+
+    .mapImg{
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+    }
+    .chairMapImg{
+        width: 99%;
+    }
+
+     
+    .nameBox, .artistNameBox{
+        display: grid;
+        grid-template-columns: 2em 1fr;
+        cursor: pointer;
+        height: 4%;
+        
+        font-weight: 600;
+        
+    }
+
+    .artistNameBox{
+        padding-bottom: 2vh;
+    }
+
+    .mapAbout{
+        position: relative;
+        width: 100%;
+        height: 4%;
+
+        display: grid;
+        grid-template-columns: 40% 1fr;
+    }
+
+    .nameList{
+        position: relative;
+        width: 100%;
+        
+        height: 4%;
+        display: grid;
+        grid-template-columns: 40% 1fr;
+    }
+
+    .metasq{
+        background-color: #541866; 
+    }
+    .iris{
+        background-color: #2b6aac;   
+    }
+
+    .centersq{
+        background-color: #eda421;
+    }
+
+    .season{
+        background-color: #646564;
+    }
+
+    .pond{
+        background-color: #78bfa5;
+    }
+
+    .green{
+        background-color: #278939;
+    }
+    
+    .brown{
+        background-color: #562c1a;
+    }
+
+    .number{
+        width: 2em;
+        height: 2em;
+
+        
+        
+        
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+       
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+
+    .name{
+        height: 1.5vw;
+        font-size: 0.8em;
+    }
+
+    .namelistwrapper{
+        margin-top: 10%;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+
+
+    .chairImgWrapper{
+        position: relative;
+        width: 100vw;
+        height: 100%;
+
+        margin-bottom: 30vh;
+
+        
+    }
+
+    .workImgWrapper{
+        position: relative;
+        width: 90vw;
+        height: 100%;
+
+        padding-left: 10vw;
+        margin-top: 25vh;
+
+        
+    }
+
+    .twogrid{
+        position: relative;
+        width: 100vw;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: 40% 40%;
+        padding-top: 2vh;
+
+    }
+
+    .chairImg{
+        width: 72%;
+        margin-left: 10%;
+        
+    }
+
+    .chairImgVertivcal{
+        width: 32%;
+        margin-left: 30%;
+    }
+
+    .onegird{
+        position: relative;
+        width: 60%;
+        height: 100%;
+        padding-top: 0.8vh;
+    }
+
+    .threegird{
+        position: relative;
+        width: 100vw;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: 26.6% 26.6% 26.6%;
+        padding-top: 0.4vh;
+    }
+
+
+
+
+    .blueborder{
+        position: relative;
+        width: 100vw;
+        height: 20vh;
+        
+        background: linear-gradient(#82e6e6, whitesmoke);
+    }
+
+    .yellowborder{
+        position: relative;
+        width: 100vw;
+        height: 20vh;
+        
+        background: linear-gradient(#ebc129, whitesmoke);
+    }
+
+    .oposite{
+        transform: rotate(180deg);
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        width: 10%;
+        right: auto;
+    }
+
+
+
+
+                        .artistName{
+                            text-align: left;
+                            padding-left:28%;
+                            color: gray;
+                            font-weight: 600;
+                        }
+
+                        #mainContainer{
+                            position: relative;
+                            width: 100vw;
+                            height: 100%;
+
+                            margin-top: 10vh;
+                        }
+
+                        .onlineExVideo{
+                            position: relative;
+                    top:0px;
+                    left: 0px;
+
+                    margin-bottom: 3vh;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 9;
+                        }
+
+                        
+
+                        .interviewBox{
+                            position: relative;
+                            width: 100vw;
+                            height: 50vh;
+                            margin-top: 15vh;
+                            text-align: center;
+                        }
+    
+
+    @media only screen and (max-width: 700px){
+
+        body{margin: 0px;
+                    
+                    
+                        
+            font-family: sandoll-gothicneo3, sans-serif;
+            
+            font-weight: 400;
+            
+            font-style: normal;
+            line-height: 1.5em;
+            
+            
+            word-break: keep-all;}
+
+            .wrapperForMobile{
+            width: 100vw;
+            max-width: 100vw;
+            overflow-x: hidden;
+            }
+            
+        li{
+            list-style-type: none;
+            line-height: 1.8em;
+        }
+        
+        a{
+            text-decoration: none;
+            color:inherit;
+        }
+        
+        .menu{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+            width: 5vw;
+            height: 6vh;
+            background-color: none;
+            z-index: 10;
+    
+           
+            
+            
+        }
+    
+        .menubox{
+            position: absolute;
+            left: 0%;
+            top:0%;
+    
+            padding-top: 30%;
+            padding-left: 30%;
+            width: 23vw;
+            height: 80vh;
+            z-index: 10;
+            color: gray;
+            background-color: rgba(238, 238, 238);
+            display:none;
+            
+        }
+    
+        .displayBlock{
+            display: block;
+        }
+    
+       
+    
+        .x{
+            width: 100%;
+            cursor: pointer;
+            
+        }
+    
+        .xbox, .xboxBanner{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            cursor:pointer;
+        }
+    
+        .menuicon{
+            position: absolute;
+            top: 0%;
+            left: 3vw;
+            font-size: 1em;
+            
+            width: 1vw;
+            background-color: none;
+            color: gray;
+            z-index: 10;
+            opacity: 100%;
+            
+            
+            
+        }
+
+        .maintitle{
+            position: absolute;
+            left: 0vw;
+            top: 0.2vh;
+            font-size: 0.8em;
+
+            width: 100vw;
+            text-align: center;
+            color: gray;
+            
+        }
+
+
+
+
+
+
+
+        .map{
+            position: relative;
+    
+            width: 100vw;
+            height: 100%;
+            top:1vh;
+            display: block;
+            
+        }
+    
+        .mapImg{
+            position: relative;
+            
+            width: 100%;
+            height: 100%;
+        }
+
+        .chairMapImg{
+            
+            margin-left: -20%;
+            width: 160%;
+        }
+    
+         
+        .nameBox, .artistNameBox{
+            display: grid;
+            grid-template-columns: 2em 1fr;
+            cursor: pointer;
+            
+            position: relative;
+            width: 100%;
+            height: 5.2vh;
+            
+            font-weight: 600;
+            
+        }
+
+        .artistNameBox{
+            padding-left: 1vw;
+            
+        }
+    
+        .mapAbout{
+            position: relative;
+            width: 100%;
+            
+            padding-left: 8vw;
+            display: grid;
+            grid-template-columns: 40% 1fr;
+        }
+    
+        .nameList{
+            position: relative;
+            width: 100%;
+            
+            height: 12%;
+            display: grid;
+            grid-template-columns: 40% 1fr;
+        }
+
+
+        .number{
+            width: 2em;
+            height: 2em;
+    
+            
+            
+            
+            border-radius: 50%;
+            color: white;
+            text-align: center;
+           
+            font-size: 0.7em;
+            font-weight: 600;
+        }
+    
+        .name{
+            height: 1.5vw;
+            font-size: 0.8em;
+        }
+    
+        .namelistwrapper{
+            margin-top: 5%;
+            width: 100%;
+            height: 100%;
+            padding-left: 8vw;
+        }
+    
+
+        
+    
+    
+       
+    
+    
+        .chairImgWrapper{
+            position: relative;
+            width: 100vw;
+            height: 100%;
+    
+            margin-bottom: 10vh;
+            margin-top: 10vh;
+            
+        }
+    
+        .workImgWrapper{
+            position: relative;
+            width: 100%;
+            height: 100%;
+    
+            padding-left: 5vw;
+            margin-top: 10vh;
+    
+            
+        }
+    
+        .twogrid{
+            position: relative;
+            width: 100vw;
+            height: 100%;
+    
+            display: block;
+            
+            padding-top: 2vh;
+    
+        }
+    
+        .chairImg{
+            width: 90%;
+            margin-left: -1%;
+            
+        }
+
+        .chairImgVertivcal{
+            width: 40%;
+            margin-left: 35%;
+        }
+    
+        .onegird{
+            position: relative;
+            width: 60%;
+            height: 100%;
+            padding-top: 0.8vh;
+        }
+    
+        .threegird{
+            position: relative;
+            width: 100vw;
+            height: 100%;
+    
+            display: block;
+            
+           
+        }
+
+       
+
+        .artistName{
+            text-align: left;
+            padding-left:3%;
+            color: gray;
+            font-weight: 600;
+        }
+
+        #mainContainer{
+            position: relative;
+            width: 100vw;
+            height: 100%;
+
+            margin-top: 0vh;
+        }
+
+        .onlineExVideo{
+            position: relative;
+    top:0px;
+    left: 0px;
+
+    margin-bottom: 5vh;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+        }
+
+        
+
+        .interviewBox{
+            position: relative;
+            width: 100vw;
+            height: 30vh;
+            margin-top: 2vh;
+            margin-bottom: 15vh;
+            text-align: center;
+        }
+
+    }
