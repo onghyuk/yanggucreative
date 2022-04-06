@@ -1,8 +1,7 @@
 const menu = document.querySelector(".menubox")
 const menuIcon = document.querySelector(".menuicon")
 const xbox = document.querySelector(".xbox");
-const xboxBanner = document.querySelector(".xboxBanner");
-
+const banner = document.querySelector(".banner");
 
     
 
@@ -14,9 +13,11 @@ function bannerDisplay() {
         document.querySelector(".banner").classList.add("displayNone");
 }
 
+
+
 menuIcon.addEventListener("click", menuToggle);
 xbox.addEventListener("click", menuToggle);
-xboxBanner.addEventListener("click", bannerDisplay);
+banner.addEventListener("click", bannerDisplay);
 
 
 

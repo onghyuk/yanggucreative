@@ -115,22 +115,32 @@ a{
 
             .banner{
                 position: absolute;
-                top:125vh;
-                left: 10vw;
+                top:50vh;
+                left: 30vw;
 
-                width: 80vw;
-                height: 45vh;
+                width: 40vw;
+                height: auto;
                 z-index: 10;
-                opacity: 70%;
+                opacity: 100%;
                 transition: 1s;
+                cursor: pointer;
             }
 
             .banner:hover {
                 opacity: 100%;
             }
 
-            .onlineExPoster{
+            .bannerimg{
                 width: 100%;
+            }
+
+            .close{
+                position: absolute;
+                right: 1vw;
+                top: 1vw;
+                font-family: sans-serif;
+                color: white;
+                font-size: 2em;
             }
 
             .onlineExPosterForMobile{
@@ -627,13 +637,19 @@ a{
                 
                             .banner{
                                 position: absolute;
-                                top:40vh;
-                                left:10vw;
+                                top:20vh;
+                                left:0vw;
                 
-                                width:80vw;
-                                height: 60vh;
+                                width:100vw;
+                                height: auto;
                                 z-index: 8;
                                 opacity: 100%;
+                            }
+
+                            .close{
+                                font-size: 1.5em;
+                                top:1.5vw;
+                                right:1.5vw;
                             }
                 
                             .onlineExPoster{
